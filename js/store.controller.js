@@ -123,7 +123,7 @@ function onSubmitChange(event, id) {
     updateBook(id, updatedPrice, updatedRating);
     renderBooks();
     openAndCloseMenu('update-book-menu');
-    doTranslate()
+    doTranslate();
 }
 
 function openAndCloseMenu(effect) {
